@@ -1,0 +1,64 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "1%"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "15%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "3%"
+    },
+    "_skin_": "sb35fd782c4f48f09f5cce9dc5633192",
+    "_text_": "Delete",
+    "_top_": {
+        "type": "string",
+        "value": "1%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100dp"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s5059ab96f614491afcb562791b37db9",
+    "id": "btnDelete",
+    "ide_onClick": "AS_Button_b39ca62d231e4718a2f56335aae38012",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "j21fefe32aa9485eaf2977b94c3eed4f",
+    "name": "kony.ui.Button",
+    "paddinginpixel": false,
+    "parent": "fcappFooter",
+    "pf": "frmPatientDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button"
+}

@@ -1,0 +1,88 @@
+{
+    "android": {
+        "background_image": "bg_login_land.png",
+        "blockedimgURL": "",
+        "isForked": false
+    },
+    "applicableblockedUIWidget": "Button",
+    "background_image": "bg_login_land.png",
+    "background_left_image": "bg_login_land.png",
+    "background_style": "vg",
+    "bg_type": "image",
+    "blockedimgURL": "",
+    "border_color": "000000ff",
+    "border_radius": 0,
+    "border_style": "plain",
+    "border_type": 0,
+    "border_width": 0,
+    "bottom_left_border_color": "000000ff",
+    "bottom_left_border_radius": 10,
+    "bottom_left_border_width": 0,
+    "bottom_right_border_color": "000000ff",
+    "bottom_right_border_radius": 10,
+    "bottom_right_border_width": 0,
+    "desktopweb": {
+        "background_image": "bg_login_land.png",
+        "blockedimgURL": "",
+        "isForked": false
+    },
+    "font_color": "000000ff",
+    "font_size": 100,
+    "font_weight": "normal",
+    "gridLineColor": "0000000",
+    "id": "sknfrmLoginLandscape",
+    "ipad": {
+        "background_image": "bg_login_land.png",
+        "blockedimgURL": "",
+        "isForked": false
+    },
+    "isForked": false,
+    "kuid": "scd53def66c84eeea96e589ed8ef64b8",
+    "shadow": {
+        "br": 0,
+        "color": "000000",
+        "inner": true,
+        "x": 0,
+        "y": 0
+    },
+    "spaandroidtablet": {
+        "background_image": "bg_login_land.png",
+        "blockedimgURL": "",
+        "isForked": false
+    },
+    "spaipad": {
+        "background_image": "bg_login_land.png",
+        "blockedimgURL": "",
+        "isForked": false
+    },
+    "spawindowstablet": {
+        "background_image": "bg_login_land.png",
+        "blockedimgURL": "",
+        "isForked": false
+    },
+    "tabrcandroid": {
+        "background_image": "bg_login_land.png",
+        "blockedimgURL": "",
+        "isForked": false
+    },
+    "text_shadow": {
+        "br": 0,
+        "color": "000000",
+        "x": 0,
+        "y": 0
+    },
+    "top_left_border_color": "000000ff",
+    "top_left_border_radius": 10,
+    "top_left_border_width": 0,
+    "top_right_border_color": "000000ff",
+    "top_right_border_radius": 10,
+    "top_right_border_width": 0,
+    "use_native": "false",
+    "vizChannel": "default",
+    "wType": "Form",
+    "windows8": {
+        "background_image": "bg_login_land.png",
+        "blockedimgURL": "",
+        "isForked": false
+    }
+}

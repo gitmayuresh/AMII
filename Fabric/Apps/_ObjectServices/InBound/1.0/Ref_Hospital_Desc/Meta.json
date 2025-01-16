@@ -1,0 +1,49 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "update" : "updateMapping",
+    "create" : "createMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "UpdateTimeStampField" : {
+      "DateFormat" : "",
+      "Name" : "last_modified"
+    },
+    "SoftDeleteFlagField" : {
+      "Name" : "DELETED"
+    },
+    "backendMeta" : {
+      "backendObjectName" : "Ref_Hospital_Desc",
+      "qualifiedName" : "dbo.Ref_Hospital_Desc",
+      "metadataformatterobject" : "{\"displayName\":\"Ref_Hospital_Desc\",\"qualifiedName\":\"dbo.Ref_Hospital_Desc\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"Ref_Hospital_Desc\",\"schemaName\":\"dbo\",\"tableName\":\"Ref_Hospital_Desc\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "Ref_Hospital_Desc",
+      "qualifiedName" : "dbo.Ref_Hospital_Desc",
+      "metadataformatterobject" : "{\"displayName\":\"Ref_Hospital_Desc\",\"qualifiedName\":\"dbo.Ref_Hospital_Desc\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"Ref_Hospital_Desc\",\"schemaName\":\"dbo\",\"tableName\":\"Ref_Hospital_Desc\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "HospitalID",
+    "targetField" : "HospitalID",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "DELETED",
+    "targetField" : "DELETED",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Hospital_Desc",
+    "targetField" : "Hospital_Desc",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "last_modified",
+    "targetField" : "last_modified",
+    "type" : "request_response"
+  } ]
+}

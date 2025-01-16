@@ -1,0 +1,31 @@
+{
+    "AS_Button_f6b1332481344598a5b79c53e3b3674a": {
+        "id": "AS_Button_f6b1332481344598a5b79c53e3b3674a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "appFooter",
+            "type": "templates",
+            "platform": "",
+            "KUID": "ha8ab49f8e8046fead3afcd308bd8a66"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__e450eac4e8ba46079d15fb65ed0a6851",
+            "type": "INVOKE_FUNCTION",
+            "display": "onSaveButtonClick",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

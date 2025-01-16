@@ -1,0 +1,389 @@
+{
+  "operationConfig" : {
+    "name" : "createPatientTreatmentInfo5256",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "referencingEndpoint" : "default",
+    "inputs" : [ {
+      "id" : "Medical_Record_Number",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "First_Name",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "Last_Name",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "HospitalID",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "Treatment_Date",
+      "scope" : "request",
+      "dataType" : "date",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "Is_Start_Date_Modified",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "Treatment_Start_Time",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "Is_Start_Time_Modified",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "Physician_First_Name",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "Physician_Last_Name",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "DaVitaClinicID",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "TreatmentTypeID",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "HemoTypeID",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "CRRTTypeID",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "CRRTUltrafiltrationTypeID",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "ApheresisTypeID",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "AccessTypeID",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "Stat_Treatment",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "Pediatric",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "Upgraded_Dialyzer",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "NursingServiceID",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "Nursing_Service_Time_Units",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "Hospital_Delay_Time_Units",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "Dialysate",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "IV_Antibiotic",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "Blood_Administration_Qty",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "Removal_Of_Non_Tunneled_Catheter",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "Treatment_End_Time",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "Is_End_Time_Modified",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "Treatment_End_Date",
+      "scope" : "request",
+      "dataType" : "date",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "Is_End_Date_Modified",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "Comments",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "Nurse_UserName",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "Is_Synched_With_AXDB",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "TreatmentType_Results",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "PDTypeID",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "CxlTypeID",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "AddtlSvcsTypeID",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "RoomTypeID",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "Room_Number",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "Date_Of_Birth",
+      "scope" : "request",
+      "dataType" : "date",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "App_Version_Number",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "last_modified",
+      "scope" : "request",
+      "dataType" : "date",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "Device_PIN",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "pretx_hosp_id",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "posttx_hosp_id",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "HbsAgID",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "HbsAbID",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "DELETED",
+      "scope" : "request",
+      "dataType" : "boolean",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    } ],
+    "applyCommonMapping" : true,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : true,
+    "entityMetadata" : "{\"entityAttributeTypeList\":[{\"name\":\"Medical_Record_Number\",\"jdbcType\":12,\"columnTypeName\":\"varchar\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"First_Name\",\"jdbcType\":12,\"columnTypeName\":\"varchar\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"Last_Name\",\"jdbcType\":12,\"columnTypeName\":\"varchar\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"HospitalID\",\"jdbcType\":4,\"columnTypeName\":\"int\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"Treatment_Date\",\"jdbcType\":91,\"columnTypeName\":\"date\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"Is_Start_Date_Modified\",\"jdbcType\":4,\"columnTypeName\":\"int\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"Treatment_Start_Time\",\"jdbcType\":12,\"columnTypeName\":\"varchar\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"Is_Start_Time_Modified\",\"jdbcType\":4,\"columnTypeName\":\"int\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"Physician_First_Name\",\"jdbcType\":12,\"columnTypeName\":\"varchar\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"Physician_Last_Name\",\"jdbcType\":12,\"columnTypeName\":\"varchar\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"DaVitaClinicID\",\"jdbcType\":4,\"columnTypeName\":\"int\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"TreatmentTypeID\",\"jdbcType\":4,\"columnTypeName\":\"int\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"HemoTypeID\",\"jdbcType\":4,\"columnTypeName\":\"int\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"CRRTTypeID\",\"jdbcType\":4,\"columnTypeName\":\"int\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"CRRTUltrafiltrationTypeID\",\"jdbcType\":4,\"columnTypeName\":\"int\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"ApheresisTypeID\",\"jdbcType\":4,\"columnTypeName\":\"int\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"AccessTypeID\",\"jdbcType\":4,\"columnTypeName\":\"int\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"Stat_Treatment\",\"jdbcType\":4,\"columnTypeName\":\"int\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"Pediatric\",\"jdbcType\":4,\"columnTypeName\":\"int\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"Upgraded_Dialyzer\",\"jdbcType\":4,\"columnTypeName\":\"int\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"NursingServiceID\",\"jdbcType\":4,\"columnTypeName\":\"int\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"Nursing_Service_Time_Units\",\"jdbcType\":4,\"columnTypeName\":\"int\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"Hospital_Delay_Time_Units\",\"jdbcType\":4,\"columnTypeName\":\"int\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"Dialysate\",\"jdbcType\":4,\"columnTypeName\":\"int\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"IV_Antibiotic\",\"jdbcType\":4,\"columnTypeName\":\"int\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"Blood_Administration_Qty\",\"jdbcType\":4,\"columnTypeName\":\"int\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"Removal_Of_Non_Tunneled_Catheter\",\"jdbcType\":4,\"columnTypeName\":\"int\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"Treatment_End_Time\",\"jdbcType\":12,\"columnTypeName\":\"varchar\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"Is_End_Time_Modified\",\"jdbcType\":4,\"columnTypeName\":\"int\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"Treatment_End_Date\",\"jdbcType\":91,\"columnTypeName\":\"date\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"Is_End_Date_Modified\",\"jdbcType\":4,\"columnTypeName\":\"int\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"Comments\",\"jdbcType\":12,\"columnTypeName\":\"varchar\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"Nurse_UserName\",\"jdbcType\":12,\"columnTypeName\":\"varchar\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"Is_Synched_With_AXDB\",\"jdbcType\":4,\"columnTypeName\":\"int\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"TreatmentType_Results\",\"jdbcType\":12,\"columnTypeName\":\"varchar\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"PDTypeID\",\"jdbcType\":4,\"columnTypeName\":\"int\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"CxlTypeID\",\"jdbcType\":4,\"columnTypeName\":\"int\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"AddtlSvcsTypeID\",\"jdbcType\":4,\"columnTypeName\":\"int\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"RoomTypeID\",\"jdbcType\":4,\"columnTypeName\":\"int\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"Room_Number\",\"jdbcType\":12,\"columnTypeName\":\"varchar\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"Date_Of_Birth\",\"jdbcType\":91,\"columnTypeName\":\"date\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"App_Version_Number\",\"jdbcType\":12,\"columnTypeName\":\"varchar\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"last_modified\",\"jdbcType\":91,\"columnTypeName\":\"date\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"Device_PIN\",\"jdbcType\":12,\"columnTypeName\":\"varchar\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"pretx_hosp_id\",\"jdbcType\":4,\"columnTypeName\":\"int\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"posttx_hosp_id\",\"jdbcType\":4,\"columnTypeName\":\"int\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"HbsAgID\",\"jdbcType\":4,\"columnTypeName\":\"int\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"HbsAbID\",\"jdbcType\":4,\"columnTypeName\":\"int\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"DELETED\",\"jdbcType\":-7,\"columnTypeName\":\"bit\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"ID\",\"jdbcType\":4,\"columnTypeName\":\"int identity\",\"columnDecimalDigits\":0,\"autoGenerated\":true,\"creatable\":false,\"updatable\":false,\"primary\":true,\"softDelete\":false,\"lastModified\":false}],\"relationshipTypeList\":[],\"name\":\"PatientTreatmentInfo\",\"schemaName\":\"dbo\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\"}",
+    "opcode" : "create",
+    "backendMeta" : {
+      "qualifiedObjectName" : "dbo.PatientTreatmentInfo",
+      "backendObjectName" : "PatientTreatmentInfo"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "PatientTreatmentInfo",
+      "actions" : {
+        "create" : true,
+        "update" : true
+      },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false,
+    "mapperData" : [ {
+      "name" : "base mapper1",
+      "order" : 1,
+      "requestXmlMappingOverride" : false,
+      "responseXmlMappingOverride" : false,
+      "disabled" : false,
+      "applyCommonMapping" : true,
+      "applyRequestCommonMapping" : true,
+      "applyResponseCommonMapping" : true
+    } ]
+  },
+  "enableFrontendUrl" : false,
+  "customVerb" : false
+}

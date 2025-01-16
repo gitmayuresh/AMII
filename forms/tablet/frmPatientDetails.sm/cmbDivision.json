@@ -1,0 +1,73 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_placeholder_": "Please Select...",
+    "_right_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_skin_": "s8e5ec915c5049fab09dbcf2b7055856",
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "60%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 6,
+    "dropdownimage": "listboxarw.png",
+    "focusskin": "sd1a89fc0c6740239848a95b81d25d73",
+    "groupcells": false,
+    "id": "cmbDivision",
+    "ide_onSelection": "AS_ListBox_e5286920375d411cb293300f0d9dd5c7",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "gae6d799afab497eb81f6055bc2b2d02",
+    "masterdata": [
+        [
+            "null",
+            "Please Select..."
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "paddinginpixel": false,
+    "parent": "fcDivision",
+    "pf": "frmPatientDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkey": "null",
+    "selectedkeys": null,
+    "selectedkeyvalue": [
+        "null",
+        "Please Select..."
+    ],
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox"
+}

@@ -1,0 +1,49 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "update" : "updateMapping",
+    "create" : "createMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "UpdateTimeStampField" : {
+      "DateFormat" : "",
+      "Name" : "last_modified"
+    },
+    "SoftDeleteFlagField" : {
+      "Name" : "DELETED"
+    },
+    "backendMeta" : {
+      "backendObjectName" : "Ref_DivisonRegionMappingInfo",
+      "qualifiedName" : "dbo.Ref_DivisonRegionMappingInfo",
+      "metadataformatterobject" : "{\"displayName\":\"Ref_DivisonRegionMappingInfo\",\"qualifiedName\":\"dbo.Ref_DivisonRegionMappingInfo\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"Ref_DivisonRegionMappingInfo\",\"schemaName\":\"dbo\",\"tableName\":\"Ref_DivisonRegionMappingInfo\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "Ref_DivisonRegionMappingInfo",
+      "qualifiedName" : "dbo.Ref_DivisonRegionMappingInfo",
+      "metadataformatterobject" : "{\"displayName\":\"Ref_DivisonRegionMappingInfo\",\"qualifiedName\":\"dbo.Ref_DivisonRegionMappingInfo\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"Ref_DivisonRegionMappingInfo\",\"schemaName\":\"dbo\",\"tableName\":\"Ref_DivisonRegionMappingInfo\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "RegionID",
+    "targetField" : "RegionID",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "DELETED",
+    "targetField" : "DELETED",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "DivisionID",
+    "targetField" : "DivisionID",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "last_modified",
+    "targetField" : "last_modified",
+    "type" : "request_response"
+  } ]
+}

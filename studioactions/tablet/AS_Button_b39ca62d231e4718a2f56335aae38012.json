@@ -1,0 +1,31 @@
+{
+    "AS_Button_b39ca62d231e4718a2f56335aae38012": {
+        "id": "AS_Button_b39ca62d231e4718a2f56335aae38012",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPatientDetails",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a512c2b64fa545f8bb50a4c9fdb93da0"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__d070aea4aac7459cb2e3ac8567dbee41",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onClickbtnDelete",
+            "display": "onClickbtnDelete",
+            "inputparams": [{
+                "name": "context"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

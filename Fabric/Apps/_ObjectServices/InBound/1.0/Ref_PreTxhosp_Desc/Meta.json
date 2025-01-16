@@ -1,0 +1,49 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "update" : "updateMapping",
+    "create" : "createMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "UpdateTimeStampField" : {
+      "DateFormat" : "",
+      "Name" : "last_modified"
+    },
+    "SoftDeleteFlagField" : {
+      "Name" : "DELETED"
+    },
+    "backendMeta" : {
+      "backendObjectName" : "Ref_PreTxhosp_Desc",
+      "qualifiedName" : "dbo.Ref_PreTxhosp_Desc",
+      "metadataformatterobject" : "{\"displayName\":\"Ref_PreTxhosp_Desc\",\"qualifiedName\":\"dbo.Ref_PreTxhosp_Desc\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"Ref_PreTxhosp_Desc\",\"schemaName\":\"dbo\",\"tableName\":\"Ref_PreTxhosp_Desc\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "Ref_PreTxhosp_Desc",
+      "qualifiedName" : "dbo.Ref_PreTxhosp_Desc",
+      "metadataformatterobject" : "{\"displayName\":\"Ref_PreTxhosp_Desc\",\"qualifiedName\":\"dbo.Ref_PreTxhosp_Desc\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"Ref_PreTxhosp_Desc\",\"schemaName\":\"dbo\",\"tableName\":\"Ref_PreTxhosp_Desc\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "DELETED",
+    "targetField" : "DELETED",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "last_modified",
+    "targetField" : "last_modified",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "PreTxhosp_Id",
+    "targetField" : "PreTxhosp_Id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "PreTxhosp_Desc",
+    "targetField" : "PreTxhosp_Desc",
+    "type" : "request_response"
+  } ]
+}

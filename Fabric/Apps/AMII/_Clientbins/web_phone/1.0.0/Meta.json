@@ -1,0 +1,8 @@
+{
+  "filename": "AMII.zip",
+  "channels": "web_tablet",
+  "upgradable": false,
+  "displayname": "AMII",
+  "description": "'Binary for AMII'",
+  "version": "1.0.0"
+}

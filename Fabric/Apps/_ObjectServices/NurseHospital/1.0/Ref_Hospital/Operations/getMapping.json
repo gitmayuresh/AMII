@@ -1,0 +1,99 @@
+{
+  "operationConfig" : {
+    "name" : "getHosptalsForNurseID5379",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "odata" : [ {
+      "id" : "$select",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly",
+      "isExtended" : false
+    }, {
+      "id" : "$filter",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly",
+      "isExtended" : false
+    }, {
+      "id" : "$orderby",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly",
+      "isExtended" : false
+    }, {
+      "id" : "$top",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly",
+      "isExtended" : false
+    }, {
+      "id" : "$skip",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly",
+      "isExtended" : false
+    }, {
+      "id" : "$expand",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly",
+      "isExtended" : false
+    }, {
+      "id" : "$batchsize",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly",
+      "isExtended" : false
+    }, {
+      "id" : "$batchid",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly",
+      "isExtended" : false
+    } ],
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param inputpath=\"nurseID\" outputpath=\"nurseID\"/>\n    </map>\n</mapper>\n",
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">  <map inputpath=\"response_in\" outputpath=\"response_out\">    <map inputpath=\"records\" outputpath=\"Ref_Hospital\">      <set-param inputpath=\"Hospital_Desc\" outputpath=\"Hospital_Desc\"/>      <set-param inputpath=\"HospitalID\" outputpath=\"HospitalID\"/>    </map>  </map></mapper>",
+    "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"Ref_Hospital\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"NurseService (1.0).getHosptalsForNurseID\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"from\":\"source:Ref_Hospital:nurseID:\",\"to\":\"target:nurseID:\",\"fromPort\":\"source:Ref_Hospital:nurseID:\",\"toPort\":\"target:nurseID:\",\"visible\":true,\"common\":true}]}",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"Ref_Hospital\",\"xy\":\"770 100\"},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"NurseService (1.0).getHosptalsForNurseID\",\"xy\":\"150 100\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"from\":\"source:Hospital_Desc:\",\"to\":\"target:Ref_Hospital:Hospital_Desc:\",\"fromPort\":\"source:Hospital_Desc:\",\"toPort\":\"target:Ref_Hospital:Hospital_Desc:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:HospitalID:\",\"to\":\"target:Ref_Hospital:HospitalID:\",\"fromPort\":\"source:HospitalID:\",\"toPort\":\"target:Ref_Hospital:HospitalID:\",\"visible\":true,\"common\":true},{\"from\":\"target\",\"to\":\"target:Ref_Hospital\",\"fromPort\":\"target\",\"toPort\":\"target:Ref_Hospital\",\"visible\":true,\"common\":false},{\"from\":\"target:Ref_Hospital\",\"to\":\"target:Ref_Hospital:t_p_fields\",\"fromPort\":\"target:Ref_Hospital\",\"toPort\":\"target:Ref_Hospital:t_p_fields\",\"visible\":true,\"common\":false},{\"from\":\"target:Ref_Hospital:t_p_fields\",\"to\":\"target:Ref_Hospital:Hospital_Desc:\",\"fromPort\":\"target:Ref_Hospital:t_p_fields\",\"toPort\":\"target:Ref_Hospital:Hospital_Desc:\",\"visible\":true,\"common\":false},{\"from\":\"target:Ref_Hospital:t_p_fields\",\"to\":\"target:Ref_Hospital:HospitalID:\",\"fromPort\":\"target:Ref_Hospital:t_p_fields\",\"toPort\":\"target:Ref_Hospital:HospitalID:\",\"visible\":true,\"common\":false},{\"from\":\"target:Ref_Hospital:t_p_fields\",\"to\":\"target:Ref_Hospital:nurseID:\",\"fromPort\":\"target:Ref_Hospital:t_p_fields\",\"toPort\":\"target:Ref_Hospital:nurseID:\",\"visible\":true,\"common\":false},{\"from\":\"source\",\"to\":\"source:t_p_parameters\",\"fromPort\":\"source\",\"toPort\":\"source:t_p_parameters\",\"visible\":true,\"common\":false},{\"from\":\"source:t_p_parameters\",\"to\":\"source:Hospital_Desc:\",\"fromPort\":\"source:t_p_parameters\",\"toPort\":\"source:Hospital_Desc:\",\"visible\":true,\"common\":false},{\"from\":\"source:t_p_parameters\",\"to\":\"source:HospitalID:\",\"fromPort\":\"source:t_p_parameters\",\"toPort\":\"source:HospitalID:\",\"visible\":true,\"common\":false}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : false,
+    "applyResponseCommonMapping" : false,
+    "backendMeta" : {
+      "serviceName" : "NurseService",
+      "serviceVersion" : "1.0",
+      "operationName" : "getHosptalsForNurseID"
+    },
+    "relationshipHierarchyMapping" : {
+      "name" : "Ref_Hospital",
+      "children" : [ ],
+      "actions" : {
+        "get" : true
+      },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : true,
+    "mapperData" : [ {
+      "name" : "base mapper1",
+      "order" : 1,
+      "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param inputpath=\"nurseID\" outputpath=\"nurseID\"/>\n    </map>\n</mapper>\n",
+      "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">  <map inputpath=\"response_in\" outputpath=\"response_out\">    <map inputpath=\"records\" outputpath=\"Ref_Hospital\">      <set-param inputpath=\"Hospital_Desc\" outputpath=\"Hospital_Desc\"/>      <set-param inputpath=\"HospitalID\" outputpath=\"HospitalID\"/>    </map>  </map></mapper>",
+      "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"Ref_Hospital\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"NurseService (1.0).getHosptalsForNurseID\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"from\":\"source:Ref_Hospital:nurseID:\",\"to\":\"target:nurseID:\",\"fromPort\":\"source:Ref_Hospital:nurseID:\",\"toPort\":\"target:nurseID:\",\"visible\":true,\"common\":true}]}",
+      "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"Ref_Hospital\",\"xy\":\"770 100\"},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"NurseService (1.0).getHosptalsForNurseID\",\"xy\":\"150 100\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"from\":\"source:Hospital_Desc:\",\"to\":\"target:Ref_Hospital:Hospital_Desc:\",\"fromPort\":\"source:Hospital_Desc:\",\"toPort\":\"target:Ref_Hospital:Hospital_Desc:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:HospitalID:\",\"to\":\"target:Ref_Hospital:HospitalID:\",\"fromPort\":\"source:HospitalID:\",\"toPort\":\"target:Ref_Hospital:HospitalID:\",\"visible\":true,\"common\":true},{\"from\":\"target\",\"to\":\"target:Ref_Hospital\",\"fromPort\":\"target\",\"toPort\":\"target:Ref_Hospital\",\"visible\":true,\"common\":false},{\"from\":\"target:Ref_Hospital\",\"to\":\"target:Ref_Hospital:t_p_fields\",\"fromPort\":\"target:Ref_Hospital\",\"toPort\":\"target:Ref_Hospital:t_p_fields\",\"visible\":true,\"common\":false},{\"from\":\"target:Ref_Hospital:t_p_fields\",\"to\":\"target:Ref_Hospital:Hospital_Desc:\",\"fromPort\":\"target:Ref_Hospital:t_p_fields\",\"toPort\":\"target:Ref_Hospital:Hospital_Desc:\",\"visible\":true,\"common\":false},{\"from\":\"target:Ref_Hospital:t_p_fields\",\"to\":\"target:Ref_Hospital:HospitalID:\",\"fromPort\":\"target:Ref_Hospital:t_p_fields\",\"toPort\":\"target:Ref_Hospital:HospitalID:\",\"visible\":true,\"common\":false},{\"from\":\"target:Ref_Hospital:t_p_fields\",\"to\":\"target:Ref_Hospital:nurseID:\",\"fromPort\":\"target:Ref_Hospital:t_p_fields\",\"toPort\":\"target:Ref_Hospital:nurseID:\",\"visible\":true,\"common\":false},{\"from\":\"source\",\"to\":\"source:t_p_parameters\",\"fromPort\":\"source\",\"toPort\":\"source:t_p_parameters\",\"visible\":true,\"common\":false},{\"from\":\"source:t_p_parameters\",\"to\":\"source:Hospital_Desc:\",\"fromPort\":\"source:t_p_parameters\",\"toPort\":\"source:Hospital_Desc:\",\"visible\":true,\"common\":false},{\"from\":\"source:t_p_parameters\",\"to\":\"source:HospitalID:\",\"fromPort\":\"source:t_p_parameters\",\"toPort\":\"source:HospitalID:\",\"visible\":true,\"common\":false}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+      "requestXmlMappingOverride" : false,
+      "responseXmlMappingOverride" : true,
+      "disabled" : false,
+      "applyCommonMapping" : false,
+      "applyRequestCommonMapping" : false,
+      "applyResponseCommonMapping" : false
+    } ]
+  },
+  "enableFrontendUrl" : false,
+  "customVerb" : false
+}

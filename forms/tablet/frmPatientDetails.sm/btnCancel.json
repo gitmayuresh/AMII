@@ -1,0 +1,56 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_skin_": "se86991f5c4b4430b306c2d76c6bd813",
+    "_text_": "Button",
+    "_width_": {
+        "type": "string",
+        "value": "20%"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s5059ab96f614491afcb562791b37db9",
+    "id": "btnCancel",
+    "ide_onClick": "AS_Button_f1cf97af7c9845fe9251846e1e63b56a",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "fcc735813697480f9bec4915d611d9b8",
+    "name": "kony.ui.Button",
+    "parent": "FlexContainer0ddbe5c96989649",
+    "pf": "frmPatientDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "texti18n": "i18n_popupHospSearch_btnCancel",
+    "wType": "Button"
+}

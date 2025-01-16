@@ -1,0 +1,49 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "update" : "updateMapping",
+    "create" : "createMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "UpdateTimeStampField" : {
+      "DateFormat" : "",
+      "Name" : "last_modified"
+    },
+    "SoftDeleteFlagField" : {
+      "Name" : "DELETED"
+    },
+    "backendMeta" : {
+      "backendObjectName" : "Ref_DialysateType_Desc",
+      "qualifiedName" : "dbo.Ref_DialysateType_Desc",
+      "metadataformatterobject" : "{\"displayName\":\"Ref_DialysateType_Desc\",\"qualifiedName\":\"dbo.Ref_DialysateType_Desc\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"Ref_DialysateType_Desc\",\"schemaName\":\"dbo\",\"tableName\":\"Ref_DialysateType_Desc\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "Ref_DialysateType_Desc",
+      "qualifiedName" : "dbo.Ref_DialysateType_Desc",
+      "metadataformatterobject" : "{\"displayName\":\"Ref_DialysateType_Desc\",\"qualifiedName\":\"dbo.Ref_DialysateType_Desc\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"Ref_DialysateType_Desc\",\"schemaName\":\"dbo\",\"tableName\":\"Ref_DialysateType_Desc\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "DialysateTypeID",
+    "targetField" : "DialysateTypeID",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "DialysateType_Desc",
+    "targetField" : "DialysateType_Desc",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "DELETED",
+    "targetField" : "DELETED",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "last_modified",
+    "targetField" : "last_modified",
+    "type" : "request_response"
+  } ]
+}

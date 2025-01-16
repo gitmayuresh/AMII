@@ -1,0 +1,25 @@
+{
+    "AS_Button_f80eb88a260044049061d3f69876754c": {
+        "id": "AS_Button_f80eb88a260044049061d3f69876754c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_gbfc9ee5768c4f93a07ec0d78e28d914",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmPatientDetails",
+            "friendlyName": "frmPatientDetails",
+            "formKUID": "a512c2b64fa545f8bb50a4c9fdb93da0",
+            "projectName": "AMII",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

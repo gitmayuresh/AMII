@@ -1,0 +1,29 @@
+{
+    "AS_Button_d2ce63d091204cfaa4dd6451eca4da3a": {
+        "id": "AS_Button_d2ce63d091204cfaa4dd6451eca4da3a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPatientDetails",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a512c2b64fa545f8bb50a4c9fdb93da0"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__eb7d0b3d3f044afe891989490078389a",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onClickbtnSearch",
+            "display": "onClickbtnSearch",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

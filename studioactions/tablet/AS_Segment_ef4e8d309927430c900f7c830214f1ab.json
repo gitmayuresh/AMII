@@ -1,0 +1,35 @@
+{
+    "AS_Segment_ef4e8d309927430c900f7c830214f1ab": {
+        "id": "AS_Segment_ef4e8d309927430c900f7c830214f1ab",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmPatientDetails",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a512c2b64fa545f8bb50a4c9fdb93da0"
+        },
+        "language": "js",
+        "eventType": "onRowClick",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__e43f766eff7347a3a77412af2a9752bd",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onClickSelectHospital",
+            "display": "onClickSelectHospital",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

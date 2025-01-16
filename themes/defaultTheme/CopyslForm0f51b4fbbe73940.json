@@ -1,0 +1,12 @@
+{
+  "background_color": "464cfaff",
+  "bg_type": "one",
+  "border_color": "ffffffff",
+  "ipad": {
+    "background_image": "bg_login_port.png",
+    "bg_type": "image"
+  },
+  "isDefaultSkin": false,
+  "kuid": "s56d68db2a7d457599d7197680df4754",
+  "wType": "Form"
+}

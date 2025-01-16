@@ -1,0 +1,58 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        3,
+        0,
+        1,
+        0
+    ],
+    "_skin_": "s38e4941a9d84ce787d991cd3bb85901",
+    "_text_": "Back",
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "20%"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s5059ab96f614491afcb562791b37db9",
+    "id": "btnBack",
+    "ide_onClick": "AS_Button_a02a2c736e89455b9d2cc7d350bc2ce3",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "d94fc1ed1c8547d6be40a14118110b59",
+    "name": "kony.ui.Button",
+    "paddinginpixel": false,
+    "parent": "CopyFlexContainer0h115220ee8cc4d",
+    "pf": "frmPostTX",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "texti18n": "i18n_appHeader_btnBack",
+    "wType": "Button",
+    "zindex": 1
+}

@@ -1,0 +1,226 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "update" : "updateMapping",
+    "create" : "createMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "backendMeta" : {
+      "backendObjectName" : "PatientTreatmentInfo",
+      "qualifiedName" : "dbo.PatientTreatmentInfo",
+      "metadataformatterobject" : "{\"displayName\":\"PatientTreatmentInfo\",\"qualifiedName\":\"dbo.PatientTreatmentInfo\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"PatientTreatmentInfo\",\"schemaName\":\"dbo\",\"tableName\":\"PatientTreatmentInfo\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "PatientTreatmentInfo",
+      "qualifiedName" : "dbo.PatientTreatmentInfo",
+      "metadataformatterobject" : "{\"displayName\":\"PatientTreatmentInfo\",\"qualifiedName\":\"dbo.PatientTreatmentInfo\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"PatientTreatmentInfo\",\"schemaName\":\"dbo\",\"tableName\":\"PatientTreatmentInfo\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "TreatmentType_Results",
+    "targetField" : "TreatmentType_Results",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Treatment_Start_Time",
+    "targetField" : "Treatment_Start_Time",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "HospitalID",
+    "targetField" : "HospitalID",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Treatment_Date",
+    "targetField" : "Treatment_Date",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "App_Version_Number",
+    "targetField" : "App_Version_Number",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Blood_Administration_Qty",
+    "targetField" : "Blood_Administration_Qty",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Physician_Last_Name",
+    "targetField" : "Physician_Last_Name",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Is_End_Date_Modified",
+    "targetField" : "Is_End_Date_Modified",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "HbsAgID",
+    "targetField" : "HbsAgID",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Upgraded_Dialyzer",
+    "targetField" : "Upgraded_Dialyzer",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Is_Start_Date_Modified",
+    "targetField" : "Is_Start_Date_Modified",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "ID",
+    "targetField" : "ID",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "last_modified",
+    "targetField" : "last_modified",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "RoomTypeID",
+    "targetField" : "RoomTypeID",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Medical_Record_Number",
+    "targetField" : "Medical_Record_Number",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "CRRTTypeID",
+    "targetField" : "CRRTTypeID",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "HemoTypeID",
+    "targetField" : "HemoTypeID",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "ApheresisTypeID",
+    "targetField" : "ApheresisTypeID",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "pretx_hosp_id",
+    "targetField" : "pretx_hosp_id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Nurse_UserName",
+    "targetField" : "Nurse_UserName",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Pediatric",
+    "targetField" : "Pediatric",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "TreatmentTypeID",
+    "targetField" : "TreatmentTypeID",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Nursing_Service_Time_Units",
+    "targetField" : "Nursing_Service_Time_Units",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "AccessTypeID",
+    "targetField" : "AccessTypeID",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Is_Start_Time_Modified",
+    "targetField" : "Is_Start_Time_Modified",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Dialysate",
+    "targetField" : "Dialysate",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Device_PIN",
+    "targetField" : "Device_PIN",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Removal_Of_Non_Tunneled_Catheter",
+    "targetField" : "Removal_Of_Non_Tunneled_Catheter",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "DELETED",
+    "targetField" : "DELETED",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "First_Name",
+    "targetField" : "First_Name",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "NursingServiceID",
+    "targetField" : "NursingServiceID",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Treatment_End_Time",
+    "targetField" : "Treatment_End_Time",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Is_End_Time_Modified",
+    "targetField" : "Is_End_Time_Modified",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "CRRTUltrafiltrationTypeID",
+    "targetField" : "CRRTUltrafiltrationTypeID",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "PDTypeID",
+    "targetField" : "PDTypeID",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "posttx_hosp_id",
+    "targetField" : "posttx_hosp_id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "HbsAbID",
+    "targetField" : "HbsAbID",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Hospital_Delay_Time_Units",
+    "targetField" : "Hospital_Delay_Time_Units",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Comments",
+    "targetField" : "Comments",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "CxlTypeID",
+    "targetField" : "CxlTypeID",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Stat_Treatment",
+    "targetField" : "Stat_Treatment",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Is_Synched_With_AXDB",
+    "targetField" : "Is_Synched_With_AXDB",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Date_Of_Birth",
+    "targetField" : "Date_Of_Birth",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "AddtlSvcsTypeID",
+    "targetField" : "AddtlSvcsTypeID",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Last_Name",
+    "targetField" : "Last_Name",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Treatment_End_Date",
+    "targetField" : "Treatment_End_Date",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Physician_First_Name",
+    "targetField" : "Physician_First_Name",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "IV_Antibiotic",
+    "targetField" : "IV_Antibiotic",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "DaVitaClinicID",
+    "targetField" : "DaVitaClinicID",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Room_Number",
+    "targetField" : "Room_Number",
+    "type" : "request_response"
+  } ]
+}

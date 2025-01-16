@@ -1,0 +1,24 @@
+{
+  "subType" : "customapp",
+  "description" : "AMII",
+  "version" : "1.0",
+  "intSvcs" : [ {
+    "name" : "NurseService",
+    "version" : "1.0",
+    "etag" : "8a58fbed-fbb2-4134-a1c3-9d2a17ce879e"
+  } ],
+  "objectSvcs" : [ {
+    "name" : "InBound",
+    "version" : "1.0",
+    "etag" : "61af844b-9586-4c3e-9836-68820bf60088"
+  }, {
+    "name" : "NurseHospital",
+    "version" : "1.0",
+    "etag" : "124075b4-21ef-462c-bf44-188389723dae"
+  }, {
+    "name" : "OutBound",
+    "version" : "1.0",
+    "etag" : "527b2c55-32e3-4794-97e2-a038fa9a7798"
+  } ],
+  "identitySvcConf" : "{\"session_idle_timeout_mins\":20,\"session_max_duration_mins\":360,\"show_security_attributes\":true,\"is_integrity_enabled\":false,\"auto_extend\":true}"
+}

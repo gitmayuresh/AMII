@@ -1,0 +1,28 @@
+{
+    "AS_ListBox_fe3acfb2285d4456ac78699ad0a38a4a": {
+        "id": "AS_ListBox_fe3acfb2285d4456ac78699ad0a38a4a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPatientDetails",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a512c2b64fa545f8bb50a4c9fdb93da0"
+        },
+        "language": "js",
+        "eventType": "onSelection",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__a4708be8d0434d1caa2c632ce3f87bb8",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onClickbtnSearchGroup",
+            "display": "onClickbtnSearchGroup",
+            "inputparams": [],
+            "parentId": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

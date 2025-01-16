@@ -1,0 +1,31 @@
+{
+    "AS_FlexContainer_e2370251344341fb83d5abde982be3e7": {
+        "id": "AS_FlexContainer_e2370251344341fb83d5abde982be3e7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTreatmentDetails",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e67cc9bcb7aa4456859546fed75ff3c2"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__cbf089c92f674c819b3e5921449b8fe6",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmOtherDetails",
+            "friendlyName": "frmOtherDetails",
+            "formKUID": "b0b9345fa23446d68705f8570988fa82",
+            "projectName": "AMII",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "AS_FlexContainer_f19beae0f091477aad9acdafb2ee3a25": {
+        "id": "AS_FlexContainer_f19beae0f091477aad9acdafb2ee3a25",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "ADD_SNIPPET_iee79a5fc4904e578e3fc13023acc496",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "voltmx.print(\"ClickHandler in PatientDetails\");"
+        }, {
+            "id": "NAVIGATE_TO_FORM__ide_onClick_id225a811bf344c7a979675a987cf41c",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmOtherDetails",
+            "friendlyName": "frmOtherDetails",
+            "formKUID": "b0b9345fa23446d68705f8570988fa82",
+            "projectName": "AMII",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

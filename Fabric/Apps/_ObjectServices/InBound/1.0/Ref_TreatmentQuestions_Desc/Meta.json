@@ -1,0 +1,65 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "update" : "updateMapping",
+    "create" : "createMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "UpdateTimeStampField" : {
+      "DateFormat" : "",
+      "Name" : "last_modified"
+    },
+    "SoftDeleteFlagField" : {
+      "Name" : "DELETED"
+    },
+    "backendMeta" : {
+      "backendObjectName" : "Ref_TreatmentQuestions_Desc",
+      "qualifiedName" : "dbo.Ref_TreatmentQuestions_Desc",
+      "metadataformatterobject" : "{\"displayName\":\"Ref_TreatmentQuestions_Desc\",\"qualifiedName\":\"dbo.Ref_TreatmentQuestions_Desc\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"Ref_TreatmentQuestions_Desc\",\"schemaName\":\"dbo\",\"tableName\":\"Ref_TreatmentQuestions_Desc\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "Ref_TreatmentQuestions_Desc",
+      "qualifiedName" : "dbo.Ref_TreatmentQuestions_Desc",
+      "metadataformatterobject" : "{\"displayName\":\"Ref_TreatmentQuestions_Desc\",\"qualifiedName\":\"dbo.Ref_TreatmentQuestions_Desc\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"Ref_TreatmentQuestions_Desc\",\"schemaName\":\"dbo\",\"tableName\":\"Ref_TreatmentQuestions_Desc\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "TreatmentType_Desc",
+    "targetField" : "TreatmentType_Desc",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Sort_Order",
+    "targetField" : "Sort_Order",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "TreatmentType_Question",
+    "targetField" : "TreatmentType_Question",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Is_Visible",
+    "targetField" : "Is_Visible",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "TreatmentType_Options",
+    "targetField" : "TreatmentType_Options",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "DELETED",
+    "targetField" : "DELETED",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "last_modified",
+    "targetField" : "last_modified",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "TreatmentTypeID",
+    "targetField" : "TreatmentTypeID",
+    "type" : "request_response"
+  } ]
+}

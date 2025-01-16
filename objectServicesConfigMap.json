@@ -1,0 +1,198 @@
+{
+    "InBound_Ref_Hospital_Desc": {
+        "servicename": "InBound",
+        "serviceid": "4cce3c10-d543-445e-80f3-c9d845150663",
+        "type": "objectsvcs",
+        "objectname": "Ref_Hospital_Desc",
+        "objectid": "150"
+    },
+    "InBound_Ref_PDType_Desc": {
+        "servicename": "InBound",
+        "serviceid": "4cce3c10-d543-445e-80f3-c9d845150663",
+        "type": "objectsvcs",
+        "objectname": "Ref_PDType_Desc",
+        "objectid": "160"
+    },
+    "InBound_Ref_CancellationType_Desc": {
+        "servicename": "InBound",
+        "serviceid": "4cce3c10-d543-445e-80f3-c9d845150663",
+        "type": "objectsvcs",
+        "objectname": "Ref_CancellationType_Desc",
+        "objectid": "170"
+    },
+    "InBound_Ref_DialysateType_Desc": {
+        "servicename": "InBound",
+        "serviceid": "4cce3c10-d543-445e-80f3-c9d845150663",
+        "type": "objectsvcs",
+        "objectname": "Ref_DialysateType_Desc",
+        "objectid": "180"
+    },
+    "InBound_Ref_DivisonRegionMappingInfo": {
+        "servicename": "InBound",
+        "serviceid": "4cce3c10-d543-445e-80f3-c9d845150663",
+        "type": "objectsvcs",
+        "objectname": "Ref_DivisonRegionMappingInfo",
+        "objectid": "190"
+    },
+    "InBound_Ref_CRRTUltrafiltrationType_Desc": {
+        "servicename": "InBound",
+        "serviceid": "4cce3c10-d543-445e-80f3-c9d845150663",
+        "type": "objectsvcs",
+        "objectname": "Ref_CRRTUltrafiltrationType_Desc",
+        "objectid": "200"
+    },
+    "InBound_Ref_GroupDivisionMappingInfo": {
+        "servicename": "InBound",
+        "serviceid": "4cce3c10-d543-445e-80f3-c9d845150663",
+        "type": "objectsvcs",
+        "objectname": "Ref_GroupDivisionMappingInfo",
+        "objectid": "210"
+    },
+    "InBound_Ref_Nurse_Desc": {
+        "servicename": "InBound",
+        "serviceid": "4cce3c10-d543-445e-80f3-c9d845150663",
+        "type": "objectsvcs",
+        "objectname": "Ref_Nurse_Desc",
+        "objectid": "220"
+    },
+    "InBound_Ref_Group_Desc": {
+        "servicename": "InBound",
+        "serviceid": "4cce3c10-d543-445e-80f3-c9d845150663",
+        "type": "objectsvcs",
+        "objectname": "Ref_Group_Desc",
+        "objectid": "230"
+    },
+    "InBound_Ref_CRRTType_Desc": {
+        "servicename": "InBound",
+        "serviceid": "4cce3c10-d543-445e-80f3-c9d845150663",
+        "type": "objectsvcs",
+        "objectname": "Ref_CRRTType_Desc",
+        "objectid": "240"
+    },
+    "InBound_Ref_TreatmentQuestions_Desc": {
+        "servicename": "InBound",
+        "serviceid": "4cce3c10-d543-445e-80f3-c9d845150663",
+        "type": "objectsvcs",
+        "objectname": "Ref_TreatmentQuestions_Desc",
+        "objectid": "250"
+    },
+    "InBound_Ref_Region_Desc": {
+        "servicename": "InBound",
+        "serviceid": "4cce3c10-d543-445e-80f3-c9d845150663",
+        "type": "objectsvcs",
+        "objectname": "Ref_Region_Desc",
+        "objectid": "260"
+    },
+    "InBound_Ref_AccessType_Desc": {
+        "servicename": "InBound",
+        "serviceid": "4cce3c10-d543-445e-80f3-c9d845150663",
+        "type": "objectsvcs",
+        "objectname": "Ref_AccessType_Desc",
+        "objectid": "270"
+    },
+    "InBound_Ref_NursingService_Desc": {
+        "servicename": "InBound",
+        "serviceid": "4cce3c10-d543-445e-80f3-c9d845150663",
+        "type": "objectsvcs",
+        "objectname": "Ref_NursingService_Desc",
+        "objectid": "280"
+    },
+    "InBound_Ref_AdditionalServicesType_Desc": {
+        "servicename": "InBound",
+        "serviceid": "4cce3c10-d543-445e-80f3-c9d845150663",
+        "type": "objectsvcs",
+        "objectname": "Ref_AdditionalServicesType_Desc",
+        "objectid": "290"
+    },
+    "InBound_Ref_HemoType_Desc": {
+        "servicename": "InBound",
+        "serviceid": "4cce3c10-d543-445e-80f3-c9d845150663",
+        "type": "objectsvcs",
+        "objectname": "Ref_HemoType_Desc",
+        "objectid": "300"
+    },
+    "InBound_Ref_Room_Type_Desc": {
+        "servicename": "InBound",
+        "serviceid": "4cce3c10-d543-445e-80f3-c9d845150663",
+        "type": "objectsvcs",
+        "objectname": "Ref_Room_Type_Desc",
+        "objectid": "310"
+    },
+    "InBound_Ref_PreTxhosp_Desc": {
+        "servicename": "InBound",
+        "serviceid": "4cce3c10-d543-445e-80f3-c9d845150663",
+        "type": "objectsvcs",
+        "objectname": "Ref_PreTxhosp_Desc",
+        "objectid": "320"
+    },
+    "InBound_Ref_RegionHospitalMappingInfo": {
+        "servicename": "InBound",
+        "serviceid": "4cce3c10-d543-445e-80f3-c9d845150663",
+        "type": "objectsvcs",
+        "objectname": "Ref_RegionHospitalMappingInfo",
+        "objectid": "330"
+    },
+    "InBound_Ref_PostTxhosp_Desc": {
+        "servicename": "InBound",
+        "serviceid": "4cce3c10-d543-445e-80f3-c9d845150663",
+        "type": "objectsvcs",
+        "objectname": "Ref_PostTxhosp_Desc",
+        "objectid": "340"
+    },
+    "InBound_Ref_HbsAb_Desc": {
+        "servicename": "InBound",
+        "serviceid": "4cce3c10-d543-445e-80f3-c9d845150663",
+        "type": "objectsvcs",
+        "objectname": "Ref_HbsAb_Desc",
+        "objectid": "360"
+    },
+    "InBound_Ref_RegionDaVitaClinicMappingInfo": {
+        "servicename": "InBound",
+        "serviceid": "4cce3c10-d543-445e-80f3-c9d845150663",
+        "type": "objectsvcs",
+        "objectname": "Ref_RegionDaVitaClinicMappingInfo",
+        "objectid": "370"
+    },
+    "InBound_Ref_RegionNurseMappingInfo": {
+        "servicename": "InBound",
+        "serviceid": "4cce3c10-d543-445e-80f3-c9d845150663",
+        "type": "objectsvcs",
+        "objectname": "Ref_RegionNurseMappingInfo",
+        "objectid": "380"
+    },
+    "InBound_Ref_ApheresisType_Desc": {
+        "servicename": "InBound",
+        "serviceid": "4cce3c10-d543-445e-80f3-c9d845150663",
+        "type": "objectsvcs",
+        "objectname": "Ref_ApheresisType_Desc",
+        "objectid": "390"
+    },
+    "InBound_Ref_Division_Desc": {
+        "servicename": "InBound",
+        "serviceid": "4cce3c10-d543-445e-80f3-c9d845150663",
+        "type": "objectsvcs",
+        "objectname": "Ref_Division_Desc",
+        "objectid": "400"
+    },
+    "InBound_Ref_HbsAg_Desc": {
+        "servicename": "InBound",
+        "serviceid": "4cce3c10-d543-445e-80f3-c9d845150663",
+        "type": "objectsvcs",
+        "objectname": "Ref_HbsAg_Desc",
+        "objectid": "421"
+    },
+    "NurseHospital_Ref_Hospital": {
+        "servicename": "NurseHospital",
+        "serviceid": "c686135e-7844-4544-8fb8-a0c8c5c8cd75",
+        "type": "objectsvcs",
+        "objectname": "Ref_Hospital",
+        "objectid": "458"
+    },
+    "OutBound_PatientTreatmentInfo": {
+        "servicename": "OutBound",
+        "serviceid": "fb3fcb44-6a72-4127-8189-294ba0999b50",
+        "type": "objectsvcs",
+        "objectname": "PatientTreatmentInfo",
+        "objectid": "434"
+    }
+}

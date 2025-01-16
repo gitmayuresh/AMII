@@ -1,0 +1,49 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "update" : "updateMapping",
+    "create" : "createMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "UpdateTimeStampField" : {
+      "DateFormat" : "",
+      "Name" : "last_modified"
+    },
+    "SoftDeleteFlagField" : {
+      "Name" : "DELETED"
+    },
+    "backendMeta" : {
+      "backendObjectName" : "Ref_CRRTUltrafiltrationType_Desc",
+      "qualifiedName" : "dbo.Ref_CRRTUltrafiltrationType_Desc",
+      "metadataformatterobject" : "{\"displayName\":\"Ref_CRRTUltrafiltrationType_Desc\",\"qualifiedName\":\"dbo.Ref_CRRTUltrafiltrationType_Desc\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"Ref_CRRTUltrafiltrationType_Desc\",\"schemaName\":\"dbo\",\"tableName\":\"Ref_CRRTUltrafiltrationType_Desc\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "Ref_CRRTUltrafiltrationType_Desc",
+      "qualifiedName" : "dbo.Ref_CRRTUltrafiltrationType_Desc",
+      "metadataformatterobject" : "{\"displayName\":\"Ref_CRRTUltrafiltrationType_Desc\",\"qualifiedName\":\"dbo.Ref_CRRTUltrafiltrationType_Desc\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"Ref_CRRTUltrafiltrationType_Desc\",\"schemaName\":\"dbo\",\"tableName\":\"Ref_CRRTUltrafiltrationType_Desc\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "CRRTUltrafiltrationTypeID",
+    "targetField" : "CRRTUltrafiltrationTypeID",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "CRRTUltrafiltrationType_Desc",
+    "targetField" : "CRRTUltrafiltrationType_Desc",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "DELETED",
+    "targetField" : "DELETED",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "last_modified",
+    "targetField" : "last_modified",
+    "type" : "request_response"
+  } ]
+}

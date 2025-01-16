@@ -1,0 +1,97 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRadio",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "number",
+        "value": "1"
+    },
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "number",
+        "value": "2"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "number",
+        "value": "2"
+    },
+    "_skin_": "s13a922261e34c4ba1dae324d4ec740e",
+    "_top_": {
+        "type": "number",
+        "value": "1"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "27%"
+    },
+    "android": {
+        "psp": {
+            "viewType": 0
+        }
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "groupcells": false,
+    "id": "rbtRemoveCVC",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "viewConfig": {
+                "toggleViewConfig": {
+                    "equalSegments": false,
+                    "viewStyle": 1
+                }
+            },
+            "viewType": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "viewType": 0
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "itemorientation": "horizontal",
+    "kuid": "a4ade7613b454e349b2282a0d3d1c573",
+    "masterdata": [
+        [
+            "1",
+            "Yes"
+        ],
+        [
+            "2",
+            "No"
+        ]
+    ],
+    "name": "kony.ui.RadioButtonGroup",
+    "parent": "fcRemoveCVC",
+    "pf": "frmOtherDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkeyvalue": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "equalSegments": false,
+            "viewStyle": 1
+        }
+    },
+    "viewtype": 0,
+    "wType": "RadioButtonGroup",
+    "widgetalignment": 5
+}

@@ -1,0 +1,29 @@
+{
+    "AS_Button_f087a9de49aa43a8915996245dfaa336": {
+        "id": "AS_Button_f087a9de49aa43a8915996245dfaa336",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPostTX",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f182cb2cc64b4690b7eb69a4a78dd01c"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__eb839512629f45b38cfe9d152b6e50c2",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onClickbtnEndTreatment",
+            "display": "onClickbtnEndTreatment",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

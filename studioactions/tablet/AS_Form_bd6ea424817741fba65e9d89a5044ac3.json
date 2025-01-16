@@ -1,0 +1,19 @@
+{
+    "AS_Form_bd6ea424817741fba65e9d89a5044ac3": {
+        "id": "AS_Form_bd6ea424817741fba65e9d89a5044ac3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTreatmentDetails",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e67cc9bcb7aa4456859546fed75ff3c2"
+        },
+        "language": "js",
+        "eventType": "postShow",
+        "actions": []
+    }
+}

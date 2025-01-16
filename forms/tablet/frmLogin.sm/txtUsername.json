@@ -1,0 +1,83 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        32,
+        2,
+        32,
+        2
+    ],
+    "_padding_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_placeholder_": "Teammate ID",
+    "_right_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_skin_": "s98dba0dbada4b06b619d5154a5ffc8a",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "46%"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "focusskin": "s2e47a1d357a4460ae18da5598954ce8",
+    "id": "txtUsername",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "leftViewImage": "username.png"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "keyboardstyle": "A",
+    "keyboardtype": "A",
+    "kuid": "cc6f81225b054e57868b7fee03a83269",
+    "leftviewimage": "username.png",
+    "mode": "N",
+    "name": "kony.ui.TextBox2",
+    "parent": "FlexGroup0d76c7f8cfa2048",
+    "pf": "frmLogin",
+    "placeholderskin": "s4f95d635d3d4610b248961202dadd28",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "securetextentry": false,
+    "textinputmode": "N",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

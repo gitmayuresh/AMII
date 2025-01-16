@@ -1,0 +1,49 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "update" : "updateMapping",
+    "create" : "createMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "UpdateTimeStampField" : {
+      "DateFormat" : "",
+      "Name" : "last_modified"
+    },
+    "SoftDeleteFlagField" : {
+      "Name" : "DELETED"
+    },
+    "backendMeta" : {
+      "backendObjectName" : "Ref_ApheresisType_Desc",
+      "qualifiedName" : "dbo.Ref_ApheresisType_Desc",
+      "metadataformatterobject" : "{\"displayName\":\"Ref_ApheresisType_Desc\",\"qualifiedName\":\"dbo.Ref_ApheresisType_Desc\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"Ref_ApheresisType_Desc\",\"schemaName\":\"dbo\",\"tableName\":\"Ref_ApheresisType_Desc\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "Ref_ApheresisType_Desc",
+      "qualifiedName" : "dbo.Ref_ApheresisType_Desc",
+      "metadataformatterobject" : "{\"displayName\":\"Ref_ApheresisType_Desc\",\"qualifiedName\":\"dbo.Ref_ApheresisType_Desc\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"Ref_ApheresisType_Desc\",\"schemaName\":\"dbo\",\"tableName\":\"Ref_ApheresisType_Desc\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "ApheresisType_Desc",
+    "targetField" : "ApheresisType_Desc",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "ApheresisTypeID",
+    "targetField" : "ApheresisTypeID",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "DELETED",
+    "targetField" : "DELETED",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "last_modified",
+    "targetField" : "last_modified",
+    "type" : "request_response"
+  } ]
+}

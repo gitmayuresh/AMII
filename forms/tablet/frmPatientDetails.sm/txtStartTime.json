@@ -1,0 +1,55 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Placeholder",
+    "_skin_": "s1cd773e3b26476a86954856bea9ef46",
+    "_text_": "Hh:mm",
+    "_width_": {
+        "type": "string",
+        "value": "59%"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 6,
+    "focusskin": "s2e47a1d357a4460ae18da5598954ce8",
+    "id": "txtStartTime",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "ffca7d56612e4cfe816e1fa79b1b227f",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "fcTreatmentStartTime",
+    "pf": "frmPatientDetails",
+    "placeholderskin": "s4f95d635d3d4610b248961202dadd28",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "securetextentry": false,
+    "textinputmode": "A",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextField"
+}

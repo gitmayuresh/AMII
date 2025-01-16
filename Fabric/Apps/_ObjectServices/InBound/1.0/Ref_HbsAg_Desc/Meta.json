@@ -1,0 +1,42 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "update" : "updateMapping",
+    "create" : "createMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "backendMeta" : {
+      "backendObjectName" : "Ref_HbsAg_Desc",
+      "qualifiedName" : "dbo.Ref_HbsAg_Desc",
+      "metadataformatterobject" : "{\"displayName\":\"Ref_HbsAg_Desc\",\"qualifiedName\":\"dbo.Ref_HbsAg_Desc\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"Ref_HbsAg_Desc\",\"schemaName\":\"dbo\",\"tableName\":\"Ref_HbsAg_Desc\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "Ref_HbsAg_Desc",
+      "qualifiedName" : "dbo.Ref_HbsAg_Desc",
+      "metadataformatterobject" : "{\"displayName\":\"Ref_HbsAg_Desc\",\"qualifiedName\":\"dbo.Ref_HbsAg_Desc\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"Ref_HbsAg_Desc\",\"schemaName\":\"dbo\",\"tableName\":\"Ref_HbsAg_Desc\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "DELETED",
+    "targetField" : "DELETED",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "HbsAg_Desc",
+    "targetField" : "HbsAg Desc",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "HbsAgId",
+    "targetField" : "HbsAg Id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "last_modified",
+    "targetField" : "last_modified",
+    "type" : "request_response"
+  } ]
+}

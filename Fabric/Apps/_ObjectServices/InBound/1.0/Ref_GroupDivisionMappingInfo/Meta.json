@@ -1,0 +1,49 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "update" : "updateMapping",
+    "create" : "createMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "UpdateTimeStampField" : {
+      "DateFormat" : "",
+      "Name" : "last_modified"
+    },
+    "SoftDeleteFlagField" : {
+      "Name" : "DELETED"
+    },
+    "backendMeta" : {
+      "backendObjectName" : "Ref_GroupDivisionMappingInfo",
+      "qualifiedName" : "dbo.Ref_GroupDivisionMappingInfo",
+      "metadataformatterobject" : "{\"displayName\":\"Ref_GroupDivisionMappingInfo\",\"qualifiedName\":\"dbo.Ref_GroupDivisionMappingInfo\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"Ref_GroupDivisionMappingInfo\",\"schemaName\":\"dbo\",\"tableName\":\"Ref_GroupDivisionMappingInfo\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "Ref_GroupDivisionMappingInfo",
+      "qualifiedName" : "dbo.Ref_GroupDivisionMappingInfo",
+      "metadataformatterobject" : "{\"displayName\":\"Ref_GroupDivisionMappingInfo\",\"qualifiedName\":\"dbo.Ref_GroupDivisionMappingInfo\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"Ref_GroupDivisionMappingInfo\",\"schemaName\":\"dbo\",\"tableName\":\"Ref_GroupDivisionMappingInfo\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "DELETED",
+    "targetField" : "DELETED",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "DivisionID",
+    "targetField" : "DivisionID",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "last_modified",
+    "targetField" : "last_modified",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "GroupID",
+    "targetField" : "GroupID",
+    "type" : "request_response"
+  } ]
+}

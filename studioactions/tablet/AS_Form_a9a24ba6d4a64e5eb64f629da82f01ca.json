@@ -1,0 +1,31 @@
+{
+    "AS_Form_a9a24ba6d4a64e5eb64f629da82f01ca": {
+        "id": "AS_Form_a9a24ba6d4a64e5eb64f629da82f01ca",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPostTX",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f182cb2cc64b4690b7eb69a4a78dd01c"
+        },
+        "language": "js",
+        "eventType": "preShow",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__jf6ae7f5a30943389e5dec187fb927b9",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onFormPostTxPreShow",
+            "display": "onFormPostTxPreShow",
+            "inputparams": [{
+                "name": "context"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

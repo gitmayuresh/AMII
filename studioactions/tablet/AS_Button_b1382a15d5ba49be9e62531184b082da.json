@@ -1,0 +1,24 @@
+{
+    "AS_Button_b1382a15d5ba49be9e62531184b082da": {
+        "id": "AS_Button_b1382a15d5ba49be9e62531184b082da",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_ea2caccb18b04861a36b9702f6979148",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onClickbtnSave",
+            "display": "onClickbtnSave",
+            "inputparams": [{
+                "name": "context"
+            }],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

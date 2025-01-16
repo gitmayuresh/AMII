@@ -1,0 +1,17 @@
+{
+  "name" : "default",
+  "dataAdapterId" : "1",
+  "type" : "CustomDataAdapter",
+  "encryptSecureInfo" : false,
+  "config" : {
+    "authservicetype" : "IdentityProvider",
+    "jdbcClass" : "com.microsoft.sqlserver.jdbc.SQLServerDriver",
+    "jdbcUrl" : "jdbc:sqlserver://SEA-ACCDV04:1433;databaseName=AcuteChargeCapture_QA_AMII",
+    "userId" : "konysync",
+    "password" : "konysync",
+    "advancedSettings" : null,
+    "maxPoolSize" : null,
+    "connectionTimeout" : null
+  },
+  "jsonpath" : false
+}

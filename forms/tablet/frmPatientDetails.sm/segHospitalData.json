@@ -1,0 +1,112 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "lblsegHospID": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblsegHospdesc": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "",
+                "type": "Label"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "00",
+    "focusedindex": null,
+    "focuseditem": null,
+    "generatedtemplate": "jeced99abdca46adada76e11453928d9",
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segHospitalData",
+    "ide_onRowClick": "AS_Segment_ef4e8d309927430c900f7c830214f1ab",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f75c5aa6f89b4fa8b0916935c3fc2b9c",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "FlexContainer0c3872d724a6c4b",
+    "pf": "frmPatientDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "jeced99abdca46adada76e11453928d9",
+    "rowcounter": 0,
+    "rowfocusskin": "scfb932fb2f74fbe84614ab043ae3b15",
+    "rowskin": "secf28ba42674dc09676b16246b7886d",
+    "rowtemplate": "FBox0d3323315729948",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s99ba952ff8741fc8381119a6f37ecb6",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "lblsegHospID": "lblsegHospID",
+        "lblsegHospdesc": "lblsegHospdesc"
+    }
+}

@@ -1,0 +1,49 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "update" : "updateMapping",
+    "create" : "createMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "UpdateTimeStampField" : {
+      "DateFormat" : "",
+      "Name" : "last_modified"
+    },
+    "SoftDeleteFlagField" : {
+      "Name" : "DELETED"
+    },
+    "backendMeta" : {
+      "backendObjectName" : "Ref_Region_Desc",
+      "qualifiedName" : "dbo.Ref_Region_Desc",
+      "metadataformatterobject" : "{\"displayName\":\"Ref_Region_Desc\",\"qualifiedName\":\"dbo.Ref_Region_Desc\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"Ref_Region_Desc\",\"schemaName\":\"dbo\",\"tableName\":\"Ref_Region_Desc\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "Ref_Region_Desc",
+      "qualifiedName" : "dbo.Ref_Region_Desc",
+      "metadataformatterobject" : "{\"displayName\":\"Ref_Region_Desc\",\"qualifiedName\":\"dbo.Ref_Region_Desc\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"Ref_Region_Desc\",\"schemaName\":\"dbo\",\"tableName\":\"Ref_Region_Desc\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "RegionID",
+    "targetField" : "RegionID",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "DELETED",
+    "targetField" : "DELETED",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "last_modified",
+    "targetField" : "last_modified",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Region_Desc",
+    "targetField" : "Region_Desc",
+    "type" : "request_response"
+  } ]
+}

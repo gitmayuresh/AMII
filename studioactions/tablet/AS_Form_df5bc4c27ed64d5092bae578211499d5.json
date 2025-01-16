@@ -1,0 +1,24 @@
+{
+    "AS_Form_df5bc4c27ed64d5092bae578211499d5": {
+        "id": "AS_Form_df5bc4c27ed64d5092bae578211499d5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmHome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c4ffe2a9844346a1a5fb758f5dfd8f59"
+        },
+        "language": "js",
+        "eventType": "postShow",
+        "actions": [{
+            "id": "ADD_SNIPPET_h145d719902c413fbcb3971323700474",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "voltmx.print(\"Inside Postshow\");",
+            "parentId": null
+        }]
+    }
+}

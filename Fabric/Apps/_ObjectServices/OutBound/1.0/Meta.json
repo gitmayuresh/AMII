@@ -1,0 +1,10 @@
+{
+  "config" : {
+    "metadataSecurity" : "authorized_app_user",
+    "offline" : true,
+    "delete_strategy" : "soft-delete",
+    "uploadCache" : true,
+    "conflict_policy" : "client_win"
+  },
+  "empty" : true
+}

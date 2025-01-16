@@ -1,0 +1,32 @@
+{
+    "AS_Form_a2ff41de215b471ba8ba839fbf954dcc": {
+        "id": "AS_Form_a2ff41de215b471ba8ba839fbf954dcc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPatientDetails",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a512c2b64fa545f8bb50a4c9fdb93da0"
+        },
+        "language": "js",
+        "eventType": "init",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__d87b017695f1402dbfc02b46a53abfe1",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onFormPatientDetailsInit",
+            "display": "onFormPatientDetailsInit",
+            "inputparams": [{
+                "name": "context",
+                "value": ""
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

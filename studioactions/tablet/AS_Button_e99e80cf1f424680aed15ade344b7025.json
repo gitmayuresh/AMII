@@ -1,0 +1,25 @@
+{
+    "AS_Button_e99e80cf1f424680aed15ade344b7025": {
+        "id": "AS_Button_e99e80cf1f424680aed15ade344b7025",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_ff733503b92b4ebfb391db537887a65c",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmPostTX",
+            "friendlyName": "frmPostTX",
+            "formKUID": "f182cb2cc64b4690b7eb69a4a78dd01c",
+            "projectName": "AMII",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

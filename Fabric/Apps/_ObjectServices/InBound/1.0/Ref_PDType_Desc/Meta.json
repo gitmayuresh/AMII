@@ -1,0 +1,49 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "update" : "updateMapping",
+    "create" : "createMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "UpdateTimeStampField" : {
+      "DateFormat" : "",
+      "Name" : "last_modified"
+    },
+    "SoftDeleteFlagField" : {
+      "Name" : "DELETED"
+    },
+    "backendMeta" : {
+      "backendObjectName" : "Ref_PDType_Desc",
+      "qualifiedName" : "dbo.Ref_PDType_Desc",
+      "metadataformatterobject" : "{\"displayName\":\"Ref_PDType_Desc\",\"qualifiedName\":\"dbo.Ref_PDType_Desc\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"Ref_PDType_Desc\",\"schemaName\":\"dbo\",\"tableName\":\"Ref_PDType_Desc\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "Ref_PDType_Desc",
+      "qualifiedName" : "dbo.Ref_PDType_Desc",
+      "metadataformatterobject" : "{\"displayName\":\"Ref_PDType_Desc\",\"qualifiedName\":\"dbo.Ref_PDType_Desc\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"Ref_PDType_Desc\",\"schemaName\":\"dbo\",\"tableName\":\"Ref_PDType_Desc\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "PDTypeID",
+    "targetField" : "PDTypeID",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "PDType_Desc",
+    "targetField" : "PDType_Desc",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "DELETED",
+    "targetField" : "DELETED",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "last_modified",
+    "targetField" : "last_modified",
+    "type" : "request_response"
+  } ]
+}

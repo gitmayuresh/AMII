@@ -1,0 +1,145 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "",
+    "_skin_": "s8e5ec915c5049fab09dbcf2b7055856",
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "47%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "dropdownimage": "dropdown.png",
+    "focusskin": "sd1a89fc0c6740239848a95b81d25d73",
+    "groupcells": false,
+    "id": "cmbNursinghrs",
+    "info": null,
+    "inputAccessoryViewType": 1,
+    "ipad": {
+        "psp": {
+            "inputAccessoryViewType": 1
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e10da3a63b87404f8d39f4a4b1a86a8a",
+    "masterdata": [
+        [
+            "null",
+            "Please Select..."
+        ],
+        [
+            "00",
+            "00"
+        ],
+        [
+            "15",
+            "15"
+        ],
+        [
+            "30",
+            "30"
+        ],
+        [
+            "45",
+            "45"
+        ],
+        [
+            "60",
+            "60"
+        ],
+        [
+            "75",
+            "75"
+        ],
+        [
+            "90",
+            "90"
+        ],
+        [
+            "105",
+            "105"
+        ],
+        [
+            "120",
+            "120"
+        ],
+        [
+            "135",
+            "135"
+        ],
+        [
+            "150",
+            "150"
+        ],
+        [
+            "165",
+            "165"
+        ],
+        [
+            "180",
+            "180"
+        ],
+        [
+            "195",
+            "195"
+        ],
+        [
+            "210",
+            "210"
+        ],
+        [
+            "225",
+            "225"
+        ],
+        [
+            "240",
+            "240"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "parent": "fcNursingHrs",
+    "pf": "frmOtherDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkey": "null",
+    "selectedkeys": null,
+    "selectedkeyvalue": [
+        "null",
+        "Please Select..."
+    ],
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox"
+}

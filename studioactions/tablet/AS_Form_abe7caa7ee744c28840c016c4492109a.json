@@ -1,0 +1,31 @@
+{
+    "AS_Form_abe7caa7ee744c28840c016c4492109a": {
+        "id": "AS_Form_abe7caa7ee744c28840c016c4492109a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPatientDetails",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a512c2b64fa545f8bb50a4c9fdb93da0"
+        },
+        "language": "js",
+        "eventType": "preShow",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ef082161afd54f94bf7bc29a873e372b",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onFormPatientDetailsPreShow",
+            "display": "onFormPatientDetailsPreShow",
+            "inputparams": [{
+                "name": "context"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}
