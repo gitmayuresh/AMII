@@ -1,19 +1,5 @@
 define({ 
 
-  onFormHomePreShow: function(context) {
-    voltmx.print("In frmHome preShow");
-    gblNurseUserID = 637700915;
-    gblNurseUserName = "729239";
-    gblNurseDescription = "Jason Rickard";
-
-    this.view.lblNurseUserName.text = "Welcome " + gblNurseDescription + " !";
-
-    //     this.populateTestData();
-
-//     this.getSavedTreatments();
-//     this.getWaitingForTransmitTreatments();    
-  },
-
   populateTestData: function() {
     var records = [];
     var record1 = {
@@ -71,7 +57,6 @@ define({
 
   },
 
-
   onSelectTreatmentClick: function(context) {
     var self = this;
     voltmx.print("Get Patient Data for row " + this.view.segSavedTreatments.selectedItems[0].ID);
@@ -91,7 +76,7 @@ define({
     }
 
     var patientErrorCallback = function(res) {
-      kony.print("patientErrorCallback " + JSON.stringify(res)); 
+      voltmx.print("patientErrorCallback " + JSON.stringify(res)); 
     }    
 
     var options = {};
@@ -113,7 +98,6 @@ define({
     ntf.navigate();    
   },
 
-
   populateTreatments: function(segmentName, records, targetform) {
     var tempCollection = [];
     for (var i in records) {
@@ -130,7 +114,37 @@ define({
       });
     }
     targetform[segmentName].setData(tempCollection);
-  }
+  },
 
+  btnLogoutClick: function() {
+    function alertLogoutCallback(response) {
+      if(response == true) {
+        gblNurseUserName = "";
+        var ntf = new voltmx.mvc.Navigation("frmLogin");
+        ntf.navigate();  
+      }
+    }
 
+    voltmx.ui.Alert( 
+      { message : voltmx.i18n.getLocalizedString("i18n_Logout_Msg"),
+       alertType : constants.ALERT_TYPE_CONFIRMATION,
+       alertTitle : voltmx.i18n.getLocalizedString("i18n_Logout_Title"),
+       yesLabel : voltmx.i18n.getLocalizedString("i18n_Allforms_Yes"),
+       noLabel : voltmx.i18n.getLocalizedString("i18n_Allforms_No"),
+       alertHandler : alertLogoutCallback }, {});
+  },
+
+  onFormHomePreShow: function(context) {
+    voltmx.print("In frmHome preShow");
+    gblNurseUserID = 637700915;
+    gblNurseUserName = "729239";
+    gblNurseDescription = "Jason Rickard";
+
+    this.view.lblNurseUserName.text = "Welcome " + gblNurseDescription + " !";
+
+    //     this.populateTestData();
+
+    //     this.getSavedTreatments();
+    //     this.getWaitingForTransmitTreatments();    
+  },  
 });

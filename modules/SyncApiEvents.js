@@ -18,11 +18,12 @@ function syncSetup(){
     gblNurseUserID = 637700915;
     gblNurseUserName = 729239;
     gblNurseDescription = "Jason Rickard";
-
-    syncInBoundStartSession(voltmx.i18n.getLocalizedString("i18n_Sync_Msg"));
+    this.showSyncLoadingScreen(voltmx.i18n.getLocalizedString("i18n_Sync_Msg"));
+    this.syncInBoundStartSession();
   }
 
   function failureCallback(error) {
+    voltmx.application.dismissLoadingScreen();
     voltmx.print("Application setup failed with error:" + error.code);
     console.log(error);
   }
@@ -35,7 +36,7 @@ function syncSetup(){
 }
 
 
-function syncInBoundStartSession(loadingScreenMsg){
+function syncInBoundStartSession() {
 
   var inBoundObjectService = new voltmx.sdk.VMXObjSvc("InBound");
   var syncOptions = {};
@@ -54,10 +55,9 @@ function syncInBoundStartSession(loadingScreenMsg){
     "Ref_GroupDivisionMappingInfo": "GroupID eq 4",
     "Ref_HemoType_Desc": "HemotypeID eq 1",
 //     "Ref_Hospital_Desc": "HospitalID in (111115)",
-//  "Ref_Hospital_Desc": "HospitalID in (111115, 111210, 111346, 10000286, 10000735, 10001097, 10001438, 10001632, 10001635, 10001640, 10001646, 10001648, 10001652, 10002118, 10002811)",
     "Ref_Hospital_Desc": "HospitalID eq 111115",
     "Ref_Nurse_Desc": "Nurse_UserName eq 729239",
-    "Ref_PDType_Desc": "PDTypeID eq 1",
+    "Ref_PDType_Desc": "PDTypeID eq 21",
     "Ref_Region_Desc": "RegionID eq 211",
 //     "Ref_Region_Desc": "RegionID in (211, 635, 748, 2663244, 36, 1846125, 2663244)",
     "Ref_RegionDaVitaClinicMappingInfo": "RegionID eq 211",

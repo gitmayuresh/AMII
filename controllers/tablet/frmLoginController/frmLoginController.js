@@ -1,6 +1,6 @@
 define({
 
-  login_Click: function() {
+  btnLoginClick: function() {
     var self = this;
     var userName = self.view.txtUsername.text; // Access the username from the form's text field
 
@@ -91,20 +91,8 @@ define({
     }
   },
 
-  /*
-    **************************************************
-    *  Name    : Start_Sync
-    *  Purpose : Start Sync Process
-    ****************************************************
-    */
-  start_Sync: function() {
-    if (voltmx.net.isNetworkAvailable(constants.NETWORK_TYPE_ANY)) {
-      if (!gbl_IsDownloadSyncInProgress) {
-        gbl_IsDownloadSyncInProgress = true;
-        syncStartSession(true, false, voltmx.i18n.getLocalizedString("i18n_Sync_Msg")); // Download true, no upload
-      }
-    } else {
-      this.loadLookupData(); // Load master data even without connectivity
-    }
+  onFormLoginPreShow: function(context) {
+    voltmx.print("In frmHome preShow");
+    this.view.txtUsername = "";
   }
 });

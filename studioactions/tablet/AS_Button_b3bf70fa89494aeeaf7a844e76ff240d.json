@@ -1,24 +1,24 @@
 {
-    "AS_Button_iff0dcb0e76c49e3906a78f9a2e44ee5": {
-        "id": "AS_Button_iff0dcb0e76c49e3906a78f9a2e44ee5",
+    "AS_Button_b3bf70fa89494aeeaf7a844e76ff240d": {
+        "id": "AS_Button_b3bf70fa89494aeeaf7a844e76ff240d",
         "type": "ACTION_SEQUENCE",
         "params": [{
             "datatype": "collection",
             "name": "eventobject"
         }],
         "contextObj": {
-            "name": "frmLogin",
+            "name": "frmHome",
             "type": "forms",
             "platform": "",
-            "KUID": "b8465b7b98614b3e859be5dfceadd443"
+            "KUID": "c4ffe2a9844346a1a5fb758f5dfd8f59"
         },
         "language": "js",
         "eventType": "onClick",
         "actions": [{
-            "id": "INVOKE_FUNCTION__f2eb323cc45c4df2b6a96480305bcc1c",
+            "id": "INVOKE_FUNCTION__geebe6d20b124180a7a06dae6486d236",
             "type": "INVOKE_FUNCTION",
-            "sequenceKUID": "btnLoginClick",
-            "display": "btnLoginClick",
+            "sequenceKUID": "btnLogoutClick",
+            "display": "btnLogoutClick",
             "inputparams": [],
             "parentId": null,
             "callbackType": null,
